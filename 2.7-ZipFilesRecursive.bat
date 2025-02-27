@@ -1,0 +1,1 @@
+for /r %%f in (*.*) do if "%%~xf" neq ".bat" (7z a -t7z -mx=9 "%%~nf.7z" "%%f")

@@ -1,0 +1,1 @@
+for /d %%G in (*) do 7z a -t7z -mx=9 "%%~nG.7z" "%%G"
